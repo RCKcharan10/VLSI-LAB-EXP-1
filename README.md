@@ -64,6 +64,7 @@ or o1(w5,w2,w3); or o2(cout,w5,w4);
 
 endmodule
 
+
 Full Subractor:
 
 module full_subtractor(a, b, c,D, Bout);
@@ -77,6 +78,7 @@ assign D = a^b^c;
 assign Bout = (~a & b) | (~(a^ b) & c);
 
 endmodule
+
 
 Half Adder:
 
@@ -92,6 +94,7 @@ and(carry,a,b);
 
 endmodule
 
+
 Half Subractor:
 
 module half_subtractor(D,Bo,A,B);
@@ -105,6 +108,7 @@ assign D=A^B;
 assign Bo=(~A)&B;
 
 endmodule
+
 
 Logic Gates:
 
@@ -129,6 +133,7 @@ xnor(xnorgate,a,b);
 not(notgate,a);
 
 endmodule
+
 
 Ripple Carry Adder 4Bit:
 
