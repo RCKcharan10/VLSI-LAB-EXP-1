@@ -175,14 +175,20 @@ endmodule
 
 OUTPUT:
 
+Full Adder
 ![Full Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/78ebcf71-8ed3-4710-ae0e-47d9b794d7a5)
 
-![Ripple Carry Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/c379253c-3654-49b6-80ff-6adba9a515a6)
+Full Subractor
+![Full Subtractor](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/d511498e-58e7-40ff-9fd9-6987e5e15247)
 
-![Logic Gates](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/bead9dfd-0b4d-4f86-a485-7886a157954a)
-
-![Half Subtractor](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/1cb3367d-390f-44d9-9b5c-34024cef9ad1)
-
+Half Adder
 ![Half Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/8b7a2be1-30e9-4911-b375-bc6628810f42)
 
-![Full Subtractor](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/d511498e-58e7-40ff-9fd9-6987e5e15247)
+Half Subractor
+![Half Subtractor](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/1cb3367d-390f-44d9-9b5c-34024cef9ad1)
+
+Logic Gates
+![Logic Gates](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/bead9dfd-0b4d-4f86-a485-7886a157954a)
+
+Ripple Carry Adder
+![Ripple Carry Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/c379253c-3654-49b6-80ff-6adba9a515a6)
