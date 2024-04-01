@@ -120,7 +120,36 @@ module fulladder(S, Co, X, Y, Ci);
   or G5(Co, w2, w3);
 endmodule
 ```
-OUTPUT:
+# Ripple Carry Adder 8bit
+```
+module fulladder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+wire w1,w2,w3;
+xor(w1,a,b);
+xor(sum,w1,c);
+and(w2,w1,c);
+and(w3,a,b);
+or(carry,w2,w3);
+endmodule
+
+module rca_8bit(a,b,cin,s,cout);
+input [7:0]a,b;
+input cin;
+output [7:0]s;
+output cout;
+wire [7:1]w;
+fulladder f1(a[0], b[0], cin, s[0], w[1]);
+fulladder f2(a[1], b[1], w[1], s[1], w[2]);
+fulladder f3(a[2], b[2], w[2], s[2], w[3]);
+fulladder f4(a[3], b[3], w[3], s[3], w[4]);
+fulladder f5(a[4], b[4], w[4], s[4], w[5]);
+fulladder f6(a[5], b[5], w[5], s[5], w[6]);
+fulladder f7(a[6], b[6], w[6], s[6], w[7]);
+fulladder f8(a[7], b[7], w[7], s[7], cout);
+endmodule
+```
+# OUTPUT:
 
 # Full Adder
 ![Full Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/78ebcf71-8ed3-4710-ae0e-47d9b794d7a5)
@@ -137,5 +166,9 @@ OUTPUT:
 # Logic Gates
 ![Logic Gates](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/bead9dfd-0b4d-4f86-a485-7886a157954a)
 
-# Ripple Carry Adder
+# Ripple Carry Adder 4bit
 ![Ripple Carry Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/c379253c-3654-49b6-80ff-6adba9a515a6)
+
+# Ripple Carry Adder 8bit
+![Ripple Carry Adder8bit](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/5f580fee-30ea-4256-bc0c-1390963ed0b3)
+
