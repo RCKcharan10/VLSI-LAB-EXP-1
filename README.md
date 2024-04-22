@@ -188,6 +188,30 @@ endmodule
 # Ripple Carry Adder 8bit
 ![Ripple Carry Adder8bit](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/5f580fee-30ea-4256-bc0c-1390963ed0b3)
 
+# RTL Design:
+
+# Full Adder
+![Full Adder RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/a00a1428-41f1-419f-9c2c-09a19dc02593)
+
+# Full Subractor
+![Full Subtractor RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/6aaf5330-2db0-4045-9357-5ba03e7187ae)
+
+# Half Adder
+![Half Adder RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/9599b9cb-8f41-4321-9a66-4c63f99e90d7)
+
+# Half Subractor
+![Half Subtractor RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/44ef62e2-f75f-467b-bd39-00ed3cad081c)
+
+# Logic Gates
+![Logic Gates RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/ad868688-74fe-4070-a086-8eb25dfcec8c)
+
+# Ripple Carry Adder 4bit
+![Ripple Carry Adder RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/f68c9678-9f0e-4caa-b93f-35261722fe55)
+
+# Ripple Carry Adder 8bit
+![Ripple Carry Adder8bit RTL](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/ca0d8db1-719e-466d-bcf7-0c199390f62a)
+
+
 # Result:
 
 Thus the Simulation of Logic Gates ,Adders and Subtractors is done and verified.
