@@ -190,4 +190,4 @@ endmodule
 
 # Result:
 
-Thus the simulate Logic Gates ,Adders and Subtractors is done and verified.
+Thus the Simulation of Logic Gates ,Adders and Subtractors is done and verified.
