@@ -1,9 +1,14 @@
 # 1.SIMULATION OF LOGIC GATES ,ADDERS AND SUBTRACTORS
-AIM: To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.1.
 
-APPARATUS REQUIRED: VIVADO 2023.1
+# AIM: 
+To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.1.
 
-PROCEDURE: 1. Open Vivado: Launch Xilinx Vivado software on your computer.
+# APPARATUS REQUIRED: 
+VIVADO 2023.1
+
+# PROCEDURE: 
+
+1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
 
@@ -21,7 +26,7 @@ PROCEDURE: 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
-**Logic Diagram :**
+# Logic Diagram :
 
 Logic Gates:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
@@ -55,7 +60,7 @@ Full Subtractor:
 
 
 
-VERILOG CODE:
+# VERILOG CODE:
 # Full Adder:
 ```
 module fulladder (sum, cout, a,b,c);
